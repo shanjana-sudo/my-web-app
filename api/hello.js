@@ -1,6 +1,5 @@
-export default async function (context, req) {
+module.exports = async function (context, req) {
     context.res = {
-        status: 200,
-        body: { message: "Hello from backend 🚀" }
+        body: { message: "Hello from API!" }
     };
-}
+};
